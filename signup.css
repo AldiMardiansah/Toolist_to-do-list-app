@@ -1,0 +1,74 @@
+body, h1, h2, h3, h4, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.logo img {
+    max-width: 100%;    
+    height: auto;
+}
+
+.form-wrapper {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.input-group-meta {
+    margin-bottom: 20px;
+}
+
+.input-group-meta label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group-meta input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.agreement-checkbox {
+    margin-top: 10px;
+}
+
+.agreement-checkbox label {
+    font-size: 14px;
+}
+
+.theme-btn-one {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-btn-one:hover {
+    background-color: #0056b3;
+}
+
+.copyright-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+@media (max-width: 576px) {
+    .form-wrapper {
+        max-width: 100%;
+    }
+}
